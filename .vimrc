@@ -1,4 +1,6 @@
 syntax on
+colorscheme monokai
+
 set nocompatible
 set expandtab
 set shiftwidth=2
