@@ -1,8 +1,8 @@
-export PS1='\H(\u@\W)\$ '
+export PS1='\w(\u@\W)\$ '
 export EDITOR='vi'
 
 export GOPATH="${HOME}/control/go"
-export PATH="${PATH}:${GOROOT}/bin:${GOPATH}/bin"
+export PATH="/usr/local/opt/python/libexec/bin:${PATH}:${GOROOT}/bin:${GOPATH}/bin"
 
 alias rmd='rm -rf'
 alias psa='ps aux'
